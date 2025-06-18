@@ -6,7 +6,7 @@ movie_popularity:float = 72.65
 
 if movie_rate >= 4 and movie_popularity > 80 :
     print("Highly recommended")
-elif movie_rate >= 4 and movie_popularity > 70 :
+elif movie_rate >= 3 and movie_popularity > 70 :
     print("I recommended it, it's good")
 elif movie_rate <= 2 and movie_popularity > 60 :
     print("You should check it out!")
